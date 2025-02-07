@@ -1,0 +1,33 @@
+# Model and Dataset parameters
+search_space: mobilenetv3
+
+# Optimiser parameters
+optimiser:
+  optimiser_name: adam
+  learning_rate: 0.00075
+  weight_decay: 0.00001
+
+# Continual Learning parameters
+continual:
+  n_tasks: 5
+  epochs_per_task: 1
+
+# NAS parameters
+nas:
+  n_initial_samples: 120
+  search_iterations: 30
+  archs_per_iter: 8
+  resume_search: False
+  resume_from_iter: 0
+
+# Surrogate Model parameters
+surrogate_models:
+  first-obj: "as"
+  second-obj: "as"
+
+# Growing architecture parameters
+growing:
+  capacity_tau: 0.2
+  expand_is_frozen: False
+  distill_on_expand: True
+  weights_from_ofa: True

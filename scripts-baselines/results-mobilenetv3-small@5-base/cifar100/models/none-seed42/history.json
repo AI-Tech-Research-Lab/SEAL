@@ -1,0 +1,317 @@
+{
+    "random_1": {
+        "training": {
+            "loss": [
+                1.9749515314102173
+            ],
+            "accuracy": [
+                0.46875
+            ]
+        },
+        "validation": {
+            "random_1": {
+                "accuracy": [
+                    0.6784166666666667
+                ]
+            }
+        }
+    },
+    "random_2": {
+        "training": {
+            "loss": [
+                1.9672477666536967
+            ],
+            "accuracy": [
+                0.4785
+            ]
+        },
+        "validation": {
+            "random_2": {
+                "accuracy": [
+                    0.6599166666666667
+                ]
+            }
+        }
+    },
+    "random_3": {
+        "training": {
+            "loss": [
+                1.9751010751724243
+            ],
+            "accuracy": [
+                0.475
+            ]
+        },
+        "validation": {
+            "random_3": {
+                "accuracy": [
+                    0.6590833333333334
+                ]
+            }
+        }
+    },
+    "random_4": {
+        "training": {
+            "loss": [
+                1.9769199005762736
+            ],
+            "accuracy": [
+                0.47725
+            ]
+        },
+        "validation": {
+            "random_4": {
+                "accuracy": [
+                    0.6310833333333333
+                ]
+            }
+        }
+    },
+    "random_5": {
+        "training": {
+            "loss": [
+                1.9665525263150534
+            ],
+            "accuracy": [
+                0.47533333333333333
+            ]
+        },
+        "validation": {
+            "random_5": {
+                "accuracy": [
+                    0.6948333333333333
+                ]
+            }
+        }
+    },
+    "cont_1": {
+        "training": {
+            "loss": [
+                1.9798999013900758
+            ],
+            "accuracy": [
+                0.4755
+            ]
+        },
+        "validation": {
+            "cont_1": {
+                "accuracy": [
+                    0.681
+                ]
+            },
+            "cont_2": {
+                "accuracy": [
+                    0.5715
+                ]
+            },
+            "cont_3": {
+                "accuracy": [
+                    0.57225
+                ]
+            },
+            "cont_4": {
+                "accuracy": [
+                    0.5705833333333333
+                ]
+            },
+            "cont_5": {
+                "accuracy": [
+                    0.5663333333333334
+                ]
+            }
+        }
+    },
+    "cont_2": {
+        "training": {
+            "loss": [
+                1.3361365548769633
+            ],
+            "accuracy": [
+                0.6078333333333333
+            ]
+        },
+        "validation": {
+            "cont_1": {
+                "accuracy": [
+                    0.6185833333333334
+                ]
+            },
+            "cont_2": {
+                "accuracy": [
+                    0.6706666666666666
+                ]
+            },
+            "cont_3": {
+                "accuracy": [
+                    0.57425
+                ]
+            },
+            "cont_4": {
+                "accuracy": [
+                    0.5743333333333334
+                ]
+            },
+            "cont_5": {
+                "accuracy": [
+                    0.5678333333333333
+                ]
+            }
+        }
+    },
+    "cont_3": {
+        "training": {
+            "loss": [
+                1.190196818669637
+            ],
+            "accuracy": [
+                0.6499166666666667
+            ]
+        },
+        "validation": {
+            "cont_1": {
+                "accuracy": [
+                    0.6894166666666667
+                ]
+            },
+            "cont_2": {
+                "accuracy": [
+                    0.7139166666666666
+                ]
+            },
+            "cont_3": {
+                "accuracy": [
+                    0.77825
+                ]
+            },
+            "cont_4": {
+                "accuracy": [
+                    0.6535
+                ]
+            },
+            "cont_5": {
+                "accuracy": [
+                    0.655
+                ]
+            }
+        }
+    },
+    "cont_4": {
+        "training": {
+            "loss": [
+                1.1128316758473715
+            ],
+            "accuracy": [
+                0.6763333333333333
+            ]
+        },
+        "validation": {
+            "cont_1": {
+                "accuracy": [
+                    0.6844166666666667
+                ]
+            },
+            "cont_2": {
+                "accuracy": [
+                    0.7005
+                ]
+            },
+            "cont_3": {
+                "accuracy": [
+                    0.7240833333333333
+                ]
+            },
+            "cont_4": {
+                "accuracy": [
+                    0.7755833333333333
+                ]
+            },
+            "cont_5": {
+                "accuracy": [
+                    0.6588333333333334
+                ]
+            }
+        }
+    },
+    "cont_5": {
+        "training": {
+            "loss": [
+                1.044242908000946
+            ],
+            "accuracy": [
+                0.692
+            ]
+        },
+        "validation": {
+            "cont_1": {
+                "accuracy": [
+                    0.6956666666666667
+                ]
+            },
+            "cont_2": {
+                "accuracy": [
+                    0.7105
+                ]
+            },
+            "cont_3": {
+                "accuracy": [
+                    0.72725
+                ]
+            },
+            "cont_4": {
+                "accuracy": [
+                    0.7481666666666666
+                ]
+            },
+            "cont_5": {
+                "accuracy": [
+                    0.80325
+                ]
+            }
+        }
+    },
+    "training_metrics": {
+        "training": {},
+        "validation": {
+            "cont_1": {
+                "accuracy": [
+                    0.6956666666666667
+                ],
+                "flatness": [
+                    0.12625148160290522
+                ]
+            },
+            "cont_2": {
+                "accuracy": [
+                    0.7105
+                ],
+                "flatness": [
+                    0.26250972258231786
+                ]
+            },
+            "cont_3": {
+                "accuracy": [
+                    0.72725
+                ],
+                "flatness": [
+                    0.1684879955130177
+                ]
+            },
+            "cont_4": {
+                "accuracy": [
+                    0.7481666666666666
+                ],
+                "flatness": [
+                    0.25852669097560116
+                ]
+            },
+            "cont_5": {
+                "accuracy": [
+                    0.80325
+                ],
+                "flatness": [
+                    0.24796468294920304
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,49 @@
+{
+    "augment": false,
+    "n_tasks": 5,
+    "optimiser_name": "adam",
+    "optimiser_params": {
+        "lr": 0.00075,
+        "weight_decay": 1e-05
+    },
+    "sample_definition": {
+        "depths": [
+            2,
+            2,
+            2,
+            2,
+            2
+        ],
+        "ksizes": [
+            3,
+            3,
+            5,
+            3,
+            3,
+            3,
+            3,
+            3,
+            5,
+            3
+        ],
+        "widths": [
+            3,
+            3,
+            3,
+            4,
+            3,
+            4,
+            4,
+            4,
+            3,
+            3
+        ],
+        "resolution": 176,
+        "direction": [
+            0,
+            0,
+            1
+        ]
+    },
+    "epochs_per_task": 1
+}

@@ -1,0 +1,23 @@
+# Folders
+.ipynb_checkpoints/
+__pycache__/
+
+# Files
+assets/datasets/cifar10
+assets/datasets/cifar100
+assets/datasets/imagenet16
+
+/results/*
+.DS_Store
+*.zip
+
+# Miscellaneous
+.cursorrules
+
+# Running settings depend on the server
+src/nas/evaluators/config*
+
+# Experiments logs
+old-results/
+*.txt
+tmp/

@@ -1,0 +1,13 @@
+{
+    "augment": false,
+    "n_tasks": 5,
+    "optimiser_name": "adam",
+    "optimiser_params": {
+        "lr": 0.00075,
+        "weight_decay": 1e-05
+    },
+    "sample_definition": {
+        "resolution": 224
+    },
+    "epochs_per_task": 1
+}
